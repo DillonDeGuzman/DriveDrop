@@ -54,7 +54,7 @@ def process_photos():
 
 # GUI Setup
 root = tk.Tk()
-root.title("SnapSync")
+root.title("DriveDrop")
 
 sd_path_var = tk.StringVar()
 dest_path_var = tk.StringVar()

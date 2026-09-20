@@ -1,19 +1,23 @@
 # DriveDrop
 
-A Python tool for transferring photos from a camera SD card to OneDrive.
+A Python desktop application for finding and copying recent photos from a camera SD card to a selected local folder.
 
-## Overview
+## Features
 
-DriveDrop helps organize and upload photos from a camera's SD card to a OneDrive folder. The project is designed to simplify moving photo files from local camera storage to cloud storage.
+- Select an SD card/source folder and destination folder through a graphical interface
+- Search source folders and subfolders for JPG, JPEG, and PNG images
+- Filter photos modified within the past day or past week
+- Copy matching photos to a selected destination folder
+- Display success, error, and no-results messages
 
 ## Tech Stack
 
 - Python
-- OneDrive
+- Tkinter
 - File management and automation
 
 ## Project Structure
 
 ```text
-photo_transfer.py    # Photo transfer and upload logic
+photo_transfer.py    # DriveDrop desktop application
 ```
